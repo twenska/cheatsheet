@@ -42,6 +42,7 @@ qemu-img resize *File*.qcow2 +20G
 - Look for substitution box
 - Relationship between key size and number of rounds
 - Implementation specific magic number (from [repo](https://github.com/Yara-Rules/rules/blob/master/crypto/crypto_signatures.yar)):
+
 {% highlight javascript linenos %}
 rule RijnDael_AES
 {	meta:
